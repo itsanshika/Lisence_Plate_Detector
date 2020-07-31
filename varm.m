@@ -1,5 +1,5 @@
 % Reading Input Image
-A = imread('C:\Users\anshi\Desktop\car2.jpg');
+A = imread('C:\Users\anshi\Desktop\car2.jpg'); %path of image
 A=imnoise(A,'salt & pepper',0.01);
 % RGB to GRAYSCALE CONVERSION
 R=A(:, :, 1);
